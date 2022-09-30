@@ -18,8 +18,8 @@ import com.example.practicCuatro.service.MatriculaAnioService;
 import com.example.practicCuatro.service.ProfesoresService;
 
 @RestController
-@RequestMapping("/api/home/")
-@CrossOrigin({"*"})//Para consumir servicio -todos-
+@RequestMapping("/api/home")
+@CrossOrigin({"*"})
 public class HomeController {
 	
 	@Autowired
